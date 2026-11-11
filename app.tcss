@@ -1,0 +1,27 @@
+/* Shared layout. Colours come from the stock Textual theme variables. */
+
+#layout { height: 1fr; }
+
+#nav {
+    width: 22;
+    padding: 1;
+    background: $panel;
+    border-right: vkey $primary;
+}
+#nav .nav-title { text-style: bold; color: $text-muted; margin-bottom: 1; }
+#nav Button { width: 100%; margin-bottom: 1; }
+
+#body { padding: 1 2; }
+.page-title { text-style: bold; color: $accent; margin-bottom: 1; }
+.hint { color: $text-muted; margin-bottom: 1; }
+
+.form-row { height: auto; margin-bottom: 1; }
+.form-row Label { width: 16; padding-top: 1; }
+.form-row Input, .form-row Select { width: 1fr; }
+.form-row TextArea { width: 1fr; height: 5; }
+.form-row RadioSet { width: 1fr; }
+
+.actions { height: auto; margin-top: 1; }
+.actions Button { margin-right: 2; }
+
+#result { margin-top: 1; padding: 0 1; height: auto; border: round $primary; }
